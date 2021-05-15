@@ -1,0 +1,119 @@
+.section1 {
+  margin: 100px 0 10px 0;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+section > div {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 32px;
+}
+.container_1_left {
+  padding: 24px;
+  flex: 1 1 65%;
+}
+.container_1_right {
+  padding: 32px;
+  flex: 1 1 35%;
+}
+.container_1_left_content {
+  padding: 10px 20px;
+  margin-left: 80px;
+}
+.container_1_left_content > span {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.container_1_left_content > span > span:not(.container_1_left_subtitle) {
+  font-size: 18px;
+  color: #818181;
+  margin-top: 5px;
+}
+.container_1_left_subtitle {
+  color: #9d9d9d;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+.contianer_1_title {
+  padding: 20px;
+  font-size: 32px;
+  color: #6d6d6d;
+  display: flex;
+  align-items: center;
+}
+.container_1_right > div {
+  margin: 10px;
+  padding: 20px;
+  height: calc(100% - 20px);
+}
+.container_1_right > div > div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container_1_right > div > div > button {
+  border-radius: 30px;
+  padding: 15px 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  background: #99d44b;
+  color: #6e9b34;
+  border: 0;
+}
+.container_1_right_text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 15px;
+  color: #9d9d9d;
+  margin: 20px 0;
+}
+
+.box2_stats_parent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 24px 56px;
+}
+.box2_stats_parent > span:last-child {
+  font-size: 15px;
+  color: #9d9d9d;
+  letter-spacing: 0.5px;
+}
+
+.box2_stats {
+  display: flex;
+  justify-content: space-between;
+}
+.box2_stats > span {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 10px 26px 0;
+}
+.box2_stats_title {
+  font-size: 38px;
+  font-weight: 600;
+  color: #858484;
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 910px) {
+  section > div,
+  .box2_stats {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  .contianer_1_title {
+    font-size: 28px;
+  }
+}

@@ -1,0 +1,7 @@
+.content-wrapper {
+  box-shadow: 0 0px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  background: #ffffff;
+  display: flex;
+  /* overflow: scroll; */
+}
